@@ -1,6 +1,4 @@
-# Page Allocator (second lab-task)
-
-## Description
+# Page Allocator
 
 ### About Page Allocator
 
