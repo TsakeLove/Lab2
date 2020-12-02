@@ -33,13 +33,4 @@ go through the pages to find on which page the block you want to change. If the 
 
       The function is designed to combine pages. We pass an array of pages through itd if there are several parsing pages with free memory, then we connect them.
 
-  #### Example 
-  Code:
-   Allocator allocator;
-   allocator.init();`
-   void * adr1 = allocator.mem_alloc(15);
-   void * adr2 = allocator.mem_alloc(16);
-   void * adr3 = allocator.mem_alloc(63);
-   allocator.mem_realloc(adr3, 79);
-   allocator.mem_dump();
-
+ ![alt text](output.png "Output")​
